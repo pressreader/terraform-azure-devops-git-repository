@@ -1,4 +1,4 @@
-# Azure DevOps Repository Terraform module
+# Azure DevOps Git Repository Terraform module
 
 Terraform module which creates Git Repository in Azure DevOps
 
@@ -10,8 +10,9 @@ module "git_repository" {
 
   project_id = "ID of Azure DevOps project"
 
-  name           = "Name of repository"
-  default_branch = "main" # Defaults to main
+  name = "Name of repository"
+
+  default_branch = "main"  # Defaults to main
   init_type      = "Clean" # Defaults to Clean
 }
 ```
