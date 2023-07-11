@@ -11,7 +11,7 @@ module "git_repository" {
   project_id = "ID of Azure DevOps project"
 
   name           = "Name of repository"
-  default_branch = "main"
-  init_type      = "Clean"
+  default_branch = "main" # Defaults to main
+  init_type      = "Clean" # Defaults to Clean
 }
 ```
