@@ -19,7 +19,7 @@ module "git_repository" {
     {
       principal   = "Descriptor of a group"
       branch_name = "master" # Defaults to null
-      replace     = true     # Defaults to tru
+      replace     = true     # Defaults to true
       permissions = {
         Administer              = "NotSet" # Defaults to NotSet
         GenericRead             = "allow"  # Defaults to NotSet
