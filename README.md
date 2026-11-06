@@ -2,6 +2,10 @@
 
 Terraform module which creates Git Repository in Azure DevOps
 
+## Requirements
+
+Provider `microsoft/azuredevops` `>= 1.3.0`. The caller (root module) sets the exact version.
+
 ## Usage
 
 ```terraform
